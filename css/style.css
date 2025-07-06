@@ -58,11 +58,11 @@ Mainvisual
 
 #mainvisual .overlay-img {
   position: absolute;
-  top: 200px;   /* 上からの距離 */
-  left: 20px;  /* 左からの距離 */
+  top: 50px;   /* 上からの距離 */
+  right: 10px;  /* 左からの距離 */
   /* width: 200px;  固定サイズ */
   width: 30vw;        /* 画面の30% */
-  min-width: 300px;   /* 最低幅300px */
+  min-width: 200px;   /* 最低幅300px */
   height: auto;
   z-index: 20;
 }
