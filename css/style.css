@@ -133,6 +133,12 @@ About
   /*-------------------------------------------
   Portfolio
   -------------------------------------------*/
+  #portfolio .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   #portfolio img {
 
     width: 50%;                 /* 親要素に対する幅 */
@@ -147,6 +153,17 @@ About
     aspect-ratio: 1 / 1;        /* 正方形 */
     /* overflow: hidden;           /* はみ出した部分を非表示に */
     /* position: relative; */ 
+  }
+
+  #portfolio li {
+  margin-bottom: 50px;
+  }
+
+  #portfolio p {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* ←画像と同じ幅にする（画像と左端を揃えるため） */
   }
 
 @media screen and (max-width: 600px) {
@@ -167,6 +184,17 @@ About
   #about img {
     margin-right: 0;
   }
+
+  /*-------------------------------------------
+  Portfolio
+  -------------------------------------------*/
+  #portfolio .content {
+    flex-direction: column;
+  }
+  /* #about img {
+    margin-right: 0;
+  } */
+
 
   /*-------------------------------------------
   Bicycle
