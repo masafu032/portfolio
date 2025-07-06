@@ -74,7 +74,7 @@ Mainvisual
   margin: 0 auto; */
 }
 .site-title {
-  width: 250px;
+  width: 100px;
   margin: 0;
   padding: 0;
   display: inline-block; /* インライン扱いにして右寄せが効くように */
