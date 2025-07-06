@@ -130,6 +130,25 @@ About
     flex-direction: column;
   } */
 
+  /*-------------------------------------------
+  Portfolio
+  -------------------------------------------*/
+  #portfolio img {
+
+    width: 50%;                 /* 親要素に対する幅 */
+    aspect-ratio: 1 / 1;        /* 正方形にする */
+    object-fit: cover;          /* 枠いっぱいに表示（切り取りOK） */
+    object-position: top;       /* 上側を優先表示、下を切り落とす */
+    display: block;    
+    margin: 0 auto;
+
+
+    /* width: 90%;
+    aspect-ratio: 1 / 1;        /* 正方形 */
+    /* overflow: hidden;           /* はみ出した部分を非表示に */
+    /* position: relative; */ 
+  }
+
 @media screen and (max-width: 600px) {
 
   /*-------------------------------------------
@@ -159,4 +178,7 @@ About
     width: 100%;
     margin-bottom: 30px;
   }
+
+
+
 }
