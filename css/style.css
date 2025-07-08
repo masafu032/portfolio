@@ -138,7 +138,7 @@ About
   justify-content: flex-start;
   align-items: center;
   gap: 20px;                     /* 間隔を指定（任意） */
-  max-width: 600px;             /* ← 幅を固定するとズレがなくなる */
+  max-width: 1000px;             /* ← 幅を固定するとズレがなくなる */
   margin: 0 auto;               /* セクション内で中央揃え */
   }
 
@@ -166,7 +166,7 @@ About
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; /* ←画像と同じ幅にする（画像と左端を揃えるため） */
+  width: 100%; /* ←画像と同じ幅にする（画像と左端を揃えるため） */
   }
 
   .img-link {
@@ -174,14 +174,14 @@ About
   }
 
   #portfolio .img-wrapper {
-    width: 200px;                 /* 画像表示サイズ */
+    width: 50%;                 /* 画像表示サイズ */
     aspect-ratio: 1 / 1;        /* 正方形 */
     overflow: hidden;
     position: relative;
     flex-shrink: 0; /* ← テキストに押しつぶされないように */
   }
 
-  /* テキスト部分 */
+  /* テキスト部分 */  
 #portfolio .text {
   text-align: left;
   flex: 1;
