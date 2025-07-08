@@ -245,11 +245,13 @@ About
     margin-bottom: 30px;
   }
 
-    #portfolio .img-wrapper {
+  #portfolio .img-wrapper {
     width: 100%;                 /* 画像表示サイズ */
 
   }
 
+  #portfolio .site-title {
+    text-align: center;
 
 
 }
