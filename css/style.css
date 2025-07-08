@@ -245,6 +245,11 @@ About
     margin-bottom: 30px;
   }
 
+    #portfolio .img-wrapper {
+    width: 100%;                 /* 画像表示サイズ */
+
+  }
+
 
 
 }
