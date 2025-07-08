@@ -40,9 +40,9 @@ li {
   margin: 20px 0;
 }
 
-/* #portfolio .content-title {
-  text-align: center;
-} */
+#portfolio .content-title {
+  font-size: 150%;
+}
 
 /*-------------------------------------------
 Mainvisual
@@ -142,7 +142,7 @@ About
   justify-content: flex-start;
   align-items: center;
   gap: 20px;                     /* 間隔を指定（任意） */
-  max-width: 1000px;             /* ← 幅を固定するとズレがなくなる */
+  max-width: 600px;             /* ← 幅を固定するとズレがなくなる */
   margin: 0 auto;               /* セクション内で中央揃え */
   }
 
@@ -187,8 +187,14 @@ About
 
   /* テキスト部分 */  
 #portfolio .text {
-  text-align: left;
-  flex: 1;
+  /* text-align: left;
+  flex: 1; */
+  padding-left: 1em;   /* 全体を右にずらす */
+  text-indent: -1em;   /* 1行目だけ左に戻す */
+}
+
+#portfolio .text-head {
+  margin-bottom: 1em;
 }
 
  #portfolio .img-wrapper a {
